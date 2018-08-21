@@ -5,7 +5,7 @@ export let fleet = [
         model: 'Amazon 1250',
         airTimeHours: '6050',
         base: 'New York',
-        latlong: '40.775596 -73.974615'
+        latLong: '40.775596 -73.974615'
     },
     {
         license: 'XYZ456',
@@ -13,7 +13,7 @@ export let fleet = [
         model: 'Amazon 1550',
         airTimeHours: '2100',
         base: 'New York',
-        latlong: '40.771956 -73.97831'
+        latLong: '40.771956 -73.97831'
     },
     {
         license: 'QRS678',
@@ -21,7 +21,7 @@ export let fleet = [
         model: 'Google 3800',
         airTimeHours: '300',
         base: 'New York',
-        latlong: '40.779523 -73.969411'
+        latLong: '40.779523 -73.969411'
     },
     {
         license: 'AT9900',
@@ -29,22 +29,30 @@ export let fleet = [
         make: 'Tesla',
         model: 'Quick Transport',
         miles: '15600',
-        latlong: '40.773272 -73.968875'
+        latLong: '40.773272 -73.968875'
     },
     {
         license: 'AT2000',
         type: 'car',
-        make: 'Tesla',
-        model: 'Quick Transport',
-        miles: '17600',
-        latlong: '40.779523 -73.969411'
+        make: 'Uber',
+        model: 'Auto Taxi Plus',
+        miles: '400',
+        latLong: '40.778878 -73.968435'
     },
     {
-        license: 'AT3000',
+        license: 'AT2020',
         type: 'car',
-        make: 'Tesla',
-        model: 'Quick Transport',
-        miles: '17600',
-        latlong: '40.779523 -73.969411'
+        make: 'Uber',
+        model: 'Zip Trip',
+        miles: '12200',
+        latLong: '40.778984 -73.962266'
+    },
+    {
+        license: 'AT4000',
+        type: 'car',
+        make: 'Lyft',
+        model: 'Pick U Up',
+        miles: '400',
+        latLong: '40.774036 -73.967319'
     }
 ]
